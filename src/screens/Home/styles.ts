@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Dimensions } from 'react-native';
 import { getStatusBarHeight } from 'react-native-iphone-x-helper';
 import { theme } from '../../global/styles/theme';
 
@@ -12,21 +12,22 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     marginTop: getStatusBarHeight(),
-    paddingHorizontal:10,
-    borderBottomWidth:2,
+    paddingHorizontal: 10,
+    borderBottomWidth: 2,
   },
   search: {
-    paddingHorizontal:10,
+    paddingHorizontal: 10,
     justifyContent: 'center',
     alignItems: 'center',
     width: '100%',
     marginTop: 20,
   },
-  content: {
-    marginTop: 42
+  slider: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 20,
+    
+
   },
-  matches: {
-    marginTop: 24,
-    marginLeft: 24
-  }
+
 });
