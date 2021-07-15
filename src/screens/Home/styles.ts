@@ -6,6 +6,7 @@ export const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: theme.colors.secondary,
+    
   },
   header: {
     width: '100%',
@@ -26,8 +27,12 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     marginTop: 20,
+    width:'95%',
+  },
+  categories: {
+    justifyContent: 'center',
+    alignItems: 'center',
     
-
   },
 
 });

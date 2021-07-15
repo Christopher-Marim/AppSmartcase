@@ -22,7 +22,7 @@ export function SwiperComponent({ data }: DataProps) {
         <View style={styles.slide} key={data[index].id}>
           <Image
             source={{uri: data[index].image}}
-            style={{ width: '100%', height: 180 }}
+            style={{ width: '100%', height: 180, borderRadius:15 }}
           />
         </View>
       );
