@@ -1,8 +1,9 @@
 export const theme = {
   colors: {
     primary: '#E51C44',
-    
+    iconActive: '#e36868',
     secondary: '#141414',
+    secondary2: '#202020',
    
     overlay: 'rgba(0,0,0,0.7)',
     highlight: '#ABB1CC',

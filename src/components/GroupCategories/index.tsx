@@ -9,11 +9,10 @@ export function GroupCategories() {
   return (
     <View style={styles.container}>
       <FlatList
-        columnWrapperStyle={{ justifyContent: "center" }}
         data={categories}
         keyExtractor={(item) => item.id}
-        horizontal={false}
-        numColumns={4}
+        horizontal={true}
+       
         renderItem={({ item: category }) => (
           <View
             style={{

@@ -12,13 +12,12 @@ type Props = RectButtonProps & {
 export function Category({ title, icon: Icon, ...rest }: Props) {
   return (
     <RectButton {...rest} style={styles.container}>
-      <Icon width={35} height={35} />
-      <Text 
-      numberOfLines={1} 
-      style={styles.title}
-      >
-        {title}
-      </Text>
+      <View style={styles.wrapper}>
+        <Icon width={35} height={35} />
+      </View>
+        <Text numberOfLines={1} style={styles.title}>
+          {title}
+        </Text>
     </RectButton>
   );
 }
